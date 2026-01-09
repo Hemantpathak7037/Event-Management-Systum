@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/events";
+const API_URL = "https://event-management-systum-1.onrender.com/api/events";
 
 export const getEvents = () => axios.get(API_URL);
 export const createEvent = (event) => axios.post(API_URL, event);
